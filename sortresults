@@ -1,0 +1,3 @@
+SELECT NAME, Population 
+FROM CITY 
+ORDER BY Population DESC;
