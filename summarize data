@@ -1,0 +1,3 @@
+SELECT CountryCode, SUM(Population) AS TotalPopulation
+FROM CITY
+GROUP BY CountryCode;
